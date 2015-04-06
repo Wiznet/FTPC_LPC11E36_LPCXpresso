@@ -146,7 +146,7 @@ int main(void) {
 	g_sdcard_done = 0;
 
 #if defined(F_APP_FTP)
-	ftpd_init(gWIZNETINFO.ip);
+	ftpc_init(gWIZNETINFO.ip);
 #endif
 
 	ret = flash_mount();
@@ -166,7 +166,7 @@ int main(void) {
 		}
 
 #if defined(F_APP_FTP)
-		ftpd_run(gFTPBUF);
+		ftpc_run(gFTPBUF);
 #endif
 
 		/* Loopback Test: TCP Server and UDP */
