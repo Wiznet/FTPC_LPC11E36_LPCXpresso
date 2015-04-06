@@ -1,3 +1,6 @@
 [submodule "FTP_LPC11E36_LPCXpresso/src/ioLibrary"]
 	path = FTP_LPC11E36_LPCXpresso/src/ioLibrary
 	url = git@github.com:Wiznet/ioLibrary_Driver.git
+[submodule "FTPC_LPC11E36_LPCXpresso/src/ioLibrary"]
+	path = FTPC_LPC11E36_LPCXpresso/src/ioLibrary
+	url = git@github.com:Wiznet/ioLibrary_Driver.git
