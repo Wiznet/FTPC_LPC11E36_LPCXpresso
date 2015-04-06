@@ -1,0 +1,6 @@
+09:52:41 **** Incremental Build of configuration Debug for project wiznet_evb_w5500evb_board ****
+make -r all 
+make: Nothing to be done for `all'.
+
+09:52:41 Build Finished (took 83ms)
+

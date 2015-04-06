@@ -1,0 +1,6 @@
+08:43:30 **** Incremental Build of configuration Debug for project FTP_LPC11E36_LPCXpresso ****
+make -r all 
+make: Nothing to be done for `all'.
+
+08:43:30 Build Finished (took 93ms)
+

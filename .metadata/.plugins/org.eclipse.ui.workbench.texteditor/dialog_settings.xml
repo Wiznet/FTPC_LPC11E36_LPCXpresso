@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="261" key="DIALOG_WIDTH"/>
+		<item value="280" key="DIALOG_Y_ORIGIN"/>
+		<item value="1114" key="DIALOG_X_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="Menu" key="selection"/>
+		<list key="findhistory">
+			<item value="Menu"/>
+			<item value="n"/>
+			<item value="s_retr"/>
+			<item value="s_stor"/>
+			<item value="f_retr"/>
+			<item value="f_stor"/>
+			<item value="T_I"/>
+			<item value="T_A"/>
+		</list>
+		<list key="replacehistory">
+			<item value="s_get"/>
+			<item value="s_put"/>
+			<item value="f_get"/>
+			<item value="f_put"/>
+			<item value="TransferBinary"/>
+			<item value="TransferAscii"/>
+			<item value="gModeAsciiBinary"/>
+			<item value="Second"/>
+		</list>
+	</section>
+</section>

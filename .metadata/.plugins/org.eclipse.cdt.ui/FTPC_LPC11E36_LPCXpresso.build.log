@@ -1,0 +1,21 @@
+09:52:40 **** Incremental Build of configuration Debug for project FTPC_LPC11E36_LPCXpresso ****
+make -r all 
+Building file: ../src/W5500EVB.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0 -D__USE_ROMDIVIDE -D__USE_LPCOPEN -D__LPC11EXX__ -D__REDLIB__ -I"D:\github\FTPC_LPC11E36_LPCXpresso\wiznet_evb_w5500evb_board\inc" -I"D:\github\FTPC_LPC11E36_LPCXpresso\lpc_chip_11exx\inc" -I../src/ioLibrary/Application/loopback -I../src/ioLibrary/Ethernet -I../src/ioLibrary/Ethernet/W5500 -I../src/ioLibrary/Internet/DHCP -I../src/ioLibrary/Internet/DNS -I../src/PlatformHandler -I../src/PlatformHandler/FatFs -I../src -I../src/ioLibrary/Internet/FTPClient -O0 -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/W5500EVB.d" -MT"src/W5500EVB.o" -MT"src/W5500EVB.d" -o "src/W5500EVB.o" "../src/W5500EVB.c"
+Finished building: ../src/W5500EVB.c
+ 
+Building target: FTPC_LPC11E36_LPCXpresso.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"D:\github\FTPC_LPC11E36_LPCXpresso\wiznet_evb_w5500evb_board\Debug" -L"D:\github\FTPC_LPC11E36_LPCXpresso\lpc_chip_11exx\Debug" -Xlinker -Map="FTPC_LPC11E36_LPCXpresso.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "FTP_LPC11E36_LPCXpresso.ld" -L ../ldscripts -o "FTPC_LPC11E36_LPCXpresso.axf"  ./src/ioLibrary/Internet/httpServer/httpParser.o ./src/ioLibrary/Internet/httpServer/httpServer.o ./src/ioLibrary/Internet/httpServer/httpUtil.o  ./src/ioLibrary/Internet/SNMP/snmp.o ./src/ioLibrary/Internet/SNMP/snmp_custom.o  ./src/ioLibrary/Internet/FTPClient/ftpc.o  ./src/ioLibrary/Internet/DNS/dns.o  ./src/ioLibrary/Internet/DHCP/dhcp.o  ./src/ioLibrary/Ethernet/W5500/w5500.o  ./src/ioLibrary/Ethernet/socket.o ./src/ioLibrary/Ethernet/wizchip_conf.o  ./src/ioLibrary/Application/loopback/loopback.o  ./src/PlatformHandler/FatFs/diskio.o ./src/PlatformHandler/FatFs/ff.o ./src/PlatformHandler/FatFs/ff_lfn_required.o  ./src/PlatformHandler/dataflashHandler.o ./src/PlatformHandler/eepromHandler.o ./src/PlatformHandler/mmcHandler.o ./src/PlatformHandler/spiHandler.o  ./src/W5500EVB.o ./src/aeabi_romdiv_patch.o ./src/cr_startup_lpc11exx.o ./src/crp.o ./src/sysinit.o ./src/w5500_init.o   -lwiznet_evb_w5500evb_board -llpc_chip_11exx
+Finished building target: FTPC_LPC11E36_LPCXpresso.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "FTPC_LPC11E36_LPCXpresso.axf" ; arm-none-eabi-objcopy -O ihex "FTPC_LPC11E36_LPCXpresso.axf" "FTPC_LPC11E36_LPCXpresso.hex" ; # arm-none-eabi-objcopy -v -O binary "FTPC_LPC11E36_LPCXpresso.axf" "FTPC_LPC11E36_LPCXpresso.bin" ; # checksum -p LPC11E36_501 -d "FTPC_LPC11E36_LPCXpresso.bin"
+   text	   data	    bss	    dec	    hex	filename
+  57232	    100	   4196	  61528	   f058	FTPC_LPC11E36_LPCXpresso.axf
+ 
+
+09:52:40 Build Finished (took 433ms)
+
