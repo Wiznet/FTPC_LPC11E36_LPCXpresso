@@ -20,7 +20,7 @@ best fits for low-end Non-OS devices connecting to Ethernet for the Internet of 
 - $ git push
 
 ## How to clone a submodule of ioLibrary
-- $ git clone git@github.com:Wiznet/FTP_LPC11E36_LPCXpresso.git
+- $ git clone git@github.com:Wiznet/FTPC_LPC11E36_LPCXpresso.git
 - $ git submodule init
 - $ git submodule update
 
