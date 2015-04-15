@@ -131,7 +131,7 @@ int main(void) {
     printf("\r\n=======================================\r\n");
 	printf(" WIZnet %s EVB Demos v%d.%.2d\r\n", tmpstr, VER_H, VER_L);
 	printf("=======================================\r\n");
-	printf(">> W5500 based FTP Server Example\r\n");
+	printf(">> W5500 based FTP Client Example\r\n");
 	printf("=======================================\r\n");
 */
 	Display_Net_Conf(); // Print out the network information to serial terminal
