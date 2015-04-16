@@ -145,7 +145,7 @@ int main(void) {
 
 	g_sdcard_done = 0;
 
-#if defined(F_APP_FTP)
+#if defined(F_APP_FTPC)
 	ftpc_init(gWIZNETINFO.ip);
 #endif
 
@@ -165,7 +165,7 @@ int main(void) {
 			release_factory_flag();
 		}
 
-#if defined(F_APP_FTP)
+#if defined(F_APP_FTPC)
 		ftpc_run(gFTPBUF);
 #endif
 
